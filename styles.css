@@ -39,6 +39,8 @@ section{padding:110px 0}.head{max-width:640px;margin-bottom:48px}
 .vm-card .eyebrow{color:var(--indigo)}.big{font-size:1.32rem;line-height:1.55;font-weight:600;color:var(--ink);margin:0}
 .product{position:relative;border-radius:24px;padding:40px;background:linear-gradient(#fff,#fff) padding-box,var(--grad) border-box;border:1.5px solid transparent;box-shadow:0 24px 48px -24px rgba(79,70,229,.35);transition:transform .25s}
 .product:hover{transform:translateY(-4px)}.product h3{font-size:1.6rem}
+.product h3 a{color:inherit;text-decoration:none}.product h3 a:hover{text-decoration:underline}
+footer a:not(.brand){color:inherit;text-decoration:underline;text-underline-offset:2px}
 .product.soon{background:var(--bg);border:1.5px dashed #c9cde3;box-shadow:none}
 .tag{display:inline-block;font-size:.75rem;font-weight:700;padding:5px 12px;border-radius:999px;background:#ecfdf5;color:#047857;margin-bottom:18px}.tag.muted{background:#eef0f7;color:var(--muted)}
 .link{font-weight:700;color:var(--indigo);text-decoration:none}.link span{display:inline-block;transition:transform .2s}.link:hover span{transform:translateX(4px)}
